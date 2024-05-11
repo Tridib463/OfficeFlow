@@ -7,7 +7,7 @@ const Public = () => {
                 <h1>Welcome to <span className="nowrap">OfficeFlow!</span></h1>
             </header>
             <main className="public__main">
-                <p>Introducing OfficeFlow, an innovative solution designed to revolutionize note-taking and communication within your organization.</p>
+                <p>Introducing OfficeFlow, an innovative solution designed to Simplify note-taking and communication within your organization.</p>
                 <address className="public__addr">
                 Streamline your workflow with an intuitive platform that offers seamless integration, efficient collaboration, and robust security features. From creating, assigning, and tracking notes to facilitating smooth communication among employees, managers, and admins, OfficeFlow empowers your team to work smarter and achieve greater productivity. 
                 </address>
