@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { Analytics } from '@vercel/analytics/react';
 import { store } from './app/store'
 import { Provider } from 'react-redux'
 import {disableReactDevTools} from '@fvilers/disable-react-devtools';
@@ -19,6 +19,7 @@ root.render(
           <Route path="/*" element={<App />} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </Provider>
   </React.StrictMode>
 );
